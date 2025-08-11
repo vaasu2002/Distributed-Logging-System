@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\thread">
+      <UniqueIdentifier>{4bfd003e-a1db-4e0b-84cd-6d14011f1cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\queue">
+      <UniqueIdentifier>{ee7254da-26dc-423d-b849-8208f9843b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{10c1fb0e-3211-4c92-a725-4605d541686c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{01f6a033-38f6-4c52-b7b5-99c7e4eee27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sink">
+      <UniqueIdentifier>{24e0805e-9959-4de3-beac-675face3f9d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CentralLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="LogLevel.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigEditor.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseThreadWorker.h">
+      <Filter>Header Files\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseQueue.h">
+      <Filter>Header Files\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="LogLevel.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="LogDLQueue.h">
+      <Filter>Header Files\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="LogPriorityQueue.h">
+      <Filter>Header Files\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadWorkerPool.h">
+      <Filter>Header Files\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="MQReaderThreadWorker.h">
+      <Filter>Header Files\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="LogWriterThreadWorker.h">
+      <Filter>Header Files\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigEditor.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="ISink.h">
+      <Filter>Header Files\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleSink.h">
+      <Filter>Header Files\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSink.h">
+      <Filter>Header Files\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="SinkFactory.h">
+      <Filter>Header Files\sink</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
