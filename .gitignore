@@ -1,0 +1,51 @@
+# Build folders
+/build/
+/out/
+/bin/
+/lib/
+/CMakeFiles/
+
+# CMake generated files
+CMakeCache.txt
+cmake_install.cmake
+CMakeUserPresets.json
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+# Ninja / MSVC / Xcode
+.ninja_deps
+.ninja_log
+*.ninja
+*.sln
+*.vcxproj*
+*.xcodeproj
+*.xcworkspace
+
+# Logs / debug / profiling
+*.log
+*.stackdump
+*.dSYM/
+*.swp
+*.out
+
+# OS / IDE specific
+.DS_Store
+Thumbs.db
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.o
+*.a
+*.so
+*.dylib
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Tests
+Testing/
